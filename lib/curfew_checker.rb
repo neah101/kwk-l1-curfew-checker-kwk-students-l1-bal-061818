@@ -1,15 +1,15 @@
 def simple_curfew_checker(time)
- if time == 11
+ if time == 23
    puts "you are on time"
 end
 
 def curfew_checker(time)
-if time > 11
+if time > 23
   puts "you are late"
 end
 
 def complex_curfew_checker(time)
-  if time < 11
+  if time < 23
     puts " you have time"
 end
 
